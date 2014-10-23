@@ -119,7 +119,7 @@ OLD_HISTORY = os.path.expanduser(os.path.join('~', '.cqlsh_history'))
 if os.path.exists(OLD_HISTORY):
     os.rename(OLD_HISTORY, HISTORY)
 
-DEFAULT_HOST = 'localhost'
+DEFAULT_HOST = 'cassandra-a-1'
 DEFAULT_PORT = 9160
 DEFAULT_CQLVER = '3.1.1'
 DEFAULT_TRANSPORT_FACTORY = 'cqlshlib.tfactory.regular_transport_factory'
